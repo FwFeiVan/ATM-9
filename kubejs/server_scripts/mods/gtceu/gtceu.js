@@ -782,6 +782,20 @@ ServerEvents.recipes(allthemods => {
         .outputFluids("mekanism:heavy_water 10000")
         .duration(160)
         .EUt(EV)
+
+    //infinity pipe upgrade
+    allthemods.recipes.gtceu.assembler('infinity_upgrade')
+		.itemInputs(
+			[
+				'64x pipez:ultimate_upgrade',
+				'64x allthemodium:unobtainium_block',
+                '64x quarryplus:adv_quarry',
+                '4x allthetweaks:improbable_probability_device'
+			])
+		.itemOutputs('pipez:infinity_upgrade')
+		.circuit(1)
+		.duration(1000)
+		.EUt(HV)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
