@@ -775,6 +775,13 @@ ServerEvents.recipes(allthemods => {
         .chancedOutput('gtceu:stone_dust', 6700, 800)
         .duration(400)
         .EUt(2)
+
+    //heavy water
+    allthemods.recipes.gtceu.centrifuge('heavy_water')
+        .inputFluids("minecraft:water 100000")
+        .outputFluids("mekanism:heavy_water 10000")
+        .duration(160)
+        .EUt(EV)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
