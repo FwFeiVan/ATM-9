@@ -85,7 +85,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('neural_node')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-        .recipeModifiers([neuralNodeModifier, GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT]) 
+        .recipeModifiers([neuralNodeModifier, GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT_SUBTICK]) 
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('AAAAAAAAAAAAAAAA', 'A              A', 'A              A', 'A              A', 'A              A', 'A              A', 'A              A', 'A              A', 'A              A', 'A              A', 'A              A', 'A  CCCC   CCC  A', 'A              A', 'A              A', 'A              A', 'AAAAAAAAAAAAAAAA')
             .aisle('A              A', ' BBBBCFFFFFFFFB ', ' BBBBBBBBBBBBBB ', ' BBBBBCFFFFFFFB ', ' BBBBBBBBBBBBBB ', ' BFFFFFFFFFFFFB ', ' BBBBBBBBBBBBBB ', ' BBBBBBBCFFFFFF ', ' BBBBBBBBBBBBBB ', ' BFFFFFFBFFFFFB ', ' BBBBBBBBBBBBBB ', ' BB    BBB   BB ', ' BBBBBBBBBBBBBB ', ' BBBBBBBBBBBBBB ', ' BBBBBBBBBBBBBB ', 'A              A')

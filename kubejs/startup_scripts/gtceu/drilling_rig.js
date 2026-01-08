@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:machine", allthemods => {
     allthemods.create("void_fluid_drilling_rig", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("void_fluid_drilling_rig")
-        .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
+        .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT_SUBTICK)
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
         .pattern((definition) =>
             FactoryBlockPattern.start()
