@@ -34,7 +34,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.ALL)
         .recipeTypes([GTRecipeTypes.get('ore_processing_plant'), GTRecipeTypes.get('ore_bathing_plant'), GTRecipeTypes.get('ore_sifting_plant')])
         .appearanceBlock(GCYMBlocks.CASING_SECURE_MACERATION)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT_SUBTICK])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("      BBBBBBB      ", "       B   B       ", "       B   B       ", "       B   B       ", "       BBBBB       ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ")
             .aisle("      BBBBBBB      ", "       BCBCB       ", "       BCBCB       ", "       BCBCB       ", "      BBBBBBB      ", "         B         ", "         B         ", "         B         ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ")
